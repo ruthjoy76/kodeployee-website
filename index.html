@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo_transparent.png"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Kodeployee</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__top-section" id="header">
+        <a class="logo" href="#home">
+          <img class="logo__image" src="assets/logo_transparent.png" alt="Kodeployee" />
+        </a>
+        <div class="mobile-nav__button">
+          <img id="hamburger" src="assets/icon-hamburger.svg" alt="open"/>
+          
+        </div>
+        <nav class="primary-nav" id="primary-nav" hidden>
+          <ul class="primary-nav__list">
+            <li class="primary-nav__item"><a href="#About">About</a></li>
+            <li class="primary-nav__item"><a href="#Features">Features</a></li>
+            <li class="primary-nav__item"><a href="#Testimonial">Testimonial</a></li>
+            <li class="primary-nav__item"><a href="/assets/contacts/index.html" target="_blank">Contact us</a></li>
+            
+          </ul>
+        </nav>
+        <button class="button">Sign in</button>
+      </section>
+
+      <section class="header__bottom-section" id="About">
+        <div class="bottom-section__image">
+          <img src="assets/Hero.svg" alt="" />
+        </div>
+        <div class="bottom-section__content">
+          <h1 class="bottom-section__title">
+          Streamline Your Workforce with <span>Kodeployee</span>
+          </h1>
+          <p class="bottom-section__paragraph">
+           Experience the transformative power of our HRMS and unlock the full potential of your workforce today.
+          </p>
+          <button class="button">Get Started</button>
+        </div>
+      </section>
+    </header>
+
+    <main class="main" id="Features">
+      <section class="main__top-section">
+        <div class="top-section__main">
+          <h2 class="top-section__title">What’s Kodeployee?</h2>
+          <p class="top-section__paragraph">
+           <span>Kodeployee</span> is a comprehensive solution that streamlines HR processes, enhances employee engagement, and drives operational excellence.
+          </p>
+          <div class="bottom-section__image">
+            <img src="assets/About.svg" alt="" />
+          </div>
+        </div>
+        <div class="top-section__details">
+          <ol class="details__list">
+            <li class="details__item">
+              <span class="item__marker">01</span>
+              <h3 class="item__title">Empowering <span>Efficiency</span></h3>
+              <p class="item__text">
+                Our system eliminates manual paperwork and tedious administrative tasks. 
+              </p>
+            </li>
+            <li class="details__item">
+              <span class="item__marker">02</span>
+              <h3 class="item__title">Employee <span>Engagement</span></h3>
+              <p class="item__text">
+                Employee engagement is a key driver of success, and our HRMS is designed to foster a positive and collaborative work environment. 
+              </p>
+            </li>
+            <li class="details__item">
+              <span class="item__marker">03</span>
+              <h3 class="item__title"><span>Everything</span> you need in one place</h3>
+              <p class="item__text">
+                In Kodeployee, users can access a wide range of features, information, tools, or services that cater to their various needs. 
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="main__bottom-section" id="Testimonial">
+        <h2 class="testimonials_title">What’s people Say's</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide" hidden>
+              <img
+                class="slide__avatar"
+                src="assets/img01.svg"
+                alt="Leila Lee"
+              />
+              <h3 class="slide__name">Leila Lee</h3>
+              <p class="slide__quote">
+                “I have had the privilege of utilizing this comprehensive and efficient software, and I can confidently say that it has greatly improved our HR operations.”
+              </p>
+            </article>
+            <article class="swiper-slide">
+              <img
+                class="slide__avatar"
+                src="assets/Img02.svg"
+                alt="Red Samson"
+              />
+              <h3 class="slide__name">Red Samson</h3>
+              <p class="slide__quote">
+                “Kodeployee intuitive design ensures that even individuals with limited technical expertise can quickly adapt to the software.”
+              </p>
+            </article>
+            <article class="swiper-slide" hidden>
+              <img
+                class="slide__avatar"
+                src="assets/img03.svg"
+                alt="Solen Gonzales"
+              />
+              <h3 class="slide__name">Solen Gonzales</h3>
+              <p class="slide__quote">
+                “This has empowered our workforce, allowing them to independently manage their HR needs and reducing the burden on our HR team.” 
+              </p>
+            </article>
+           
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="button">Get Started</button>
+      </section>
+    </main>
+
+    <footer class="footer" id="Contact">
+      <section class="footer__top-section">
+        <div class="top-section__wrapper">
+          <h2 class="footer__title">Empower Your Workforce with <span>Kodeployee</span>: Take Action Today!</h2>
+          <button class="button white-button">Get Started</button>
+        </div>
+      </section>
+      <section class="footer__bottom-section">
+        <div class="bottom-section__wrapper">
+         
+          <nav class="bottom-section__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#About">About</a></li>
+              <li class="nav__item"><a href="#Features">Features</a></li>
+              <li class="nav__item"><a href="#Testimonial">Testimonial</a></li>
+              <li class="nav__item"><a href="/assets/contacts/index.html" target="_blank">Contact Us</a></li>
+            </ul>
+           
+          </nav>
+          
+            
+          </a>
+          <p class="bottom-section__copy" id="copy">
+            Copyright 2023 Kodeployee
+          </p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
