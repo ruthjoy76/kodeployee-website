@@ -316,7 +316,9 @@ a:focus {
 }
 
 .footer .footer__top-section {
-  background-color: hsl(273, 88%, 59%);
+  background-image: url(/assets/Background.svg);
+  background-size: cover;
+  background-position: auto;
   z-index: -1;
   overflow: hidden;
 }
@@ -370,11 +372,15 @@ a:focus {
 .footer .footer__bottom-section .bottom-section__wrapper .bottom-section__nav {
   display: flex;
   margin-bottom: 2.4rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 .footer .footer__bottom-section .bottom-section__wrapper .bottom-section__nav .nav__list {
+  display: flex;
+  list-style: none;
+  gap: 1em;
   font-weight: 200;
   font-size: 0.9rem;
+  
 }
 .footer .footer__bottom-section .bottom-section__wrapper .bottom-section__nav .nav__list .nav__item {
   margin-bottom: 1rem;
@@ -400,6 +406,23 @@ a:focus {
   font-size: 0.75rem;
 }
 
-/* .bottom-section__logo {
-  width: 10%;
-} */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  gap: 0.5em;
+  font-size: 1rem;
+  margin-right: auto;
+}
+
+.contact-form button {
+  text-align: center;
+  gap: 1em;
+  border-radius: 1em;
+  padding: .5em;
+  width: 10em;
+  border: #800ff0;
+  cursor: pointer;
+  background-color: #800ff0;
+  font-size: .75rem;
+}
